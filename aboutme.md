@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 알아도 별 쓸데 없는 주인장의 경력
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### biography
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+2000년 2월 : 인천대학교 컴퓨터공학과 졸업
+1998년 ~ 1999년 : LG종합기술원 촉탁연구원
+1999년 ~ 2005년 : 뉴소프트기술 연구소 연구원
+2005년 ~ 2010년 : UBIS 컨설팅 설립,운영
+2011년 ~ 현재 : 클립소프트 연구소  
