@@ -4,7 +4,7 @@ title: Java Concurrent Programming - Overview
 subtitle: About Java Concurrent Programming, Overview page
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [java concurrency], [java memory visiblilty], [atomic]
+tags: [java]
 comments: true
 ---
 
