@@ -18,8 +18,12 @@ comments: true
 
 
 ![repsimg_20190905](https://jchong00.github.io/img/about-concurrent/multi-thread-shared-resource.png){: .img-center}
-<br />
 <p style='text-align: center;'>
 [공유 변수에 대한 스레드간 경합]
+</p>
+
+![repsimg_multi-thread-isolation](https://jchong00.github.io/img/about-concurrent/multi-thread-isolation.png){: .img-center}
+<p style='text-align: center;'>
+[격리된 멤버변수 접근(비 경합)]
 </p>
 
