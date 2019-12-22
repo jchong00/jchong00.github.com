@@ -388,6 +388,12 @@ footer .theme-by {
 
 /* --- Tags --- */
 
+/* 새 css class */
+.img-center {
+  display: block;
+  margin: auto;
+}
+
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #999;
@@ -788,8 +794,4 @@ pre {
   font-size: 16px;
 }
 
-/* 새 css class */
-.img-center {
-  display: block;
-  margin: auto;
-}
+
