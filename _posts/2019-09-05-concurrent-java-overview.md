@@ -19,7 +19,5 @@ comments: true
 </p>
 
 
-![repsimg_20190905](https://jchong00.github.io/img/multi-cpu-archi.png)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzkxODQ3OV19
--->
+![repsimg_20190905](https://jchong00.github.io/img/about-concurrent/multi-thread-shared-resource.png)
+
