@@ -2,8 +2,6 @@
 layout: post
 title: Java Concurrent Programming - Overview
 subtitle: About Java Concurrent Programming, Overview page
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 tags: [java]
 comments: true
 ---
@@ -18,9 +16,10 @@ comments: true
 이번 글에서는 Multi-Thread와 이를 다루는 과정의 기초가 되는 가시성과 원자성을 정의해 보도록 하겠다. 사실 가시성과 원자성이라고 하는 단어는 문제를 해결하기 위한 원칙(?)이다. 바꿔 말해 Multi-Thread를 구성하다 보니 비 가시성 비 원자성 문제가 발생 했고 Muti-Thread를 문제 없이 사용하려면 가시성과 원자성을 확보해야 한다. 이렇게 정의 할 수 있다. 필자가 이야기 하는 "~해야 한다."가 비단 개발자의 노력만으로는 이루어 질수 없음을 먼저 밝혀둔다. (CPU, OS, JVM 등이 지원을 해야한다는 말이다.) 참 노파심에서 집고 넘어가는데 가시성과 원자성은 여러 Thread가 동시에 접근이 가능한 공유변수에 대한 이야기다. Thread을 많이 작성해봤지만 이런 내용는 금시초문이다 하는 분들은 아마도 각각의 Thread가 각각의 변수만을 다루는 격리된 설계상에서 구현된 프로그램이였을 것이라 상상해본다.
 </p>
 
-<p style='text-align: center;'>
-![repsimg_20190905](https://jchong00.github.io/img/about-concurrent/multi-thread-shared-resource.png)
+
+![repsimg_20190905](https://jchong00.github.io/img/about-concurrent/multi-thread-shared-resource.png){: .center}
 <br />
-<공유 변수에 대한 스레드간 경합>
+<p style='text-align: center;'>
+[공유 변수에 대한 스레드간 경합]
 </p>
 
