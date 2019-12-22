@@ -17,7 +17,7 @@ comments: true
 </p>
 
 
-![repsimg_20190905](https://jchong00.github.io/img/about-concurrent/multi-thread-shared-resource.png){: .center}
+![repsimg_20190905](https://jchong00.github.io/img/about-concurrent/multi-thread-shared-resource.png){: .img-center}
 <br />
 <p style='text-align: center;'>
 [공유 변수에 대한 스레드간 경합]
