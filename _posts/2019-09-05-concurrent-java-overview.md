@@ -2,7 +2,7 @@
 layout: post
 title: Java Concurrent Programming - Overview
 subtitle: About Java Concurrent Programming, Overview page
-tags: [java][concurrent][thread]
+tags: [java,concurrent,thread]
 comments: true
 ---
 
