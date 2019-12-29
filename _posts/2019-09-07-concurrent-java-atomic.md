@@ -141,7 +141,7 @@ public void atomicIntegerTest() {
 }
 ```
 <p style='text-align: center;'>
-AtomicInteger 사용예
+[AtomicInteger 사용예]
 </p>
 
 ```java
@@ -246,7 +246,7 @@ class ConcurrentStack<E> {
 ```
 
 <p style='text-align: center;'>
-AtomicReference 사용예
+[AtomicReference 사용예]
 </p>
 
 # 애필로그
