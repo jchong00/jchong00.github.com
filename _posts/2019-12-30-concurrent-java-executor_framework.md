@@ -289,7 +289,7 @@ public class HowToUseExecutorService {
         return lastExceptionThreadName.get("ByExecute-Thread_");
     }
 }
-
+```
 ```java
 /**
  *  submit 은 예외를 먹는다. 결과를 돌려 받을 수 있는 방법을 제공한다. 스레드를 재사용한다.
