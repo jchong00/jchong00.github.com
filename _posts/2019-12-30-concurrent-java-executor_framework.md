@@ -304,7 +304,7 @@ public void executorSubmit() {
     Assert.assertEquals("", last);
 }
 
-**
+/**
  * 예외가 발생하면 해당 Thread 는 깨진다.
  *
  * 테스트는 execute 가 예외를 JVM 에 전파 시키기 때문에 Feedback 이 전달되어 함수의 반환
