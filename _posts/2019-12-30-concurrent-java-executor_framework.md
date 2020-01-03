@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Concurrent Programming - executor framework
+title: Java Concurrent Programming - Executor framework
 subtitle: About Java Concurrent Programming, Executor framework article
 tags: [java, concurrent, java-thread]
 comments: true
@@ -222,7 +222,7 @@ public class HowToUseExecutorService {
 
     /**
      *  submit 의 실행 대상이 Exception 을 throw 하면 해당 작업은 거기서 종료가 되고 thread 는 재활
-     *  용 된다. pool-1-thread-5' 라는 이름의 thread 까지 생성된다. Exception 은 전파되지 않는다.
+     *  용 된다. ByExecute-Thread_5' 라는 이름의 thread 까지 생성된다. Exception 은 전파되지 않는다.
      *
      */
     public String throwsExceptionRunnableTaskUsingSubmit() {
@@ -257,7 +257,7 @@ public class HowToUseExecutorService {
 
     /**
      *  execute 의 실행 대상이 Exception 을 throw 하면 해당 thread 가 깨진다.
-     *  해서 'pool-1-thread-10' 라는 이름의 thread 까지 생성된다.
+     *  해서 'ByExecute-Thread_10' 라는 이름의 thread 까지 생성된다.
      *  해당 Exception 은 전파된다.
      */
     public String throwsExceptionRunnableTaskUsingExecute() {
@@ -320,6 +320,17 @@ public void executorExecute() {
 <p style='text-align: center;'>
 [submit과 execute의 오류처리 차이]
 </p>
+
+<p style='text-align: justify;'>
+execute 로 thread task를 실행하다 예외가 발생하면 해당 thread는 파괴된다고 이미 위에서 언급했다. 그런 이유로 execute에 의해 실행된 ThrowsExceptionRunnableTask에서 출력한 스레드 이름을 유심히 보면 오류 발생으로 이해 thread가 파괴되어 10개 까지 생성되었음을 확인 할 수 있다. 
+</p>
+
+> Current thread name: ByExecute-Thread_1 <br />
+> Current thread name: ByExecute-Thread_2 <br />
+> ...<중략>.. <br />
+> Current thread name: ByExecute-Thread_6 <br />
+> Current thread name: ByExecute-Thread_10 <br />
+
 
 # ForkJoinPool
 <p style='text-align: justify;'>
