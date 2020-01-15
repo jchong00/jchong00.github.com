@@ -3,3 +3,6 @@
 
 - slug: java-thread
   name: java thread
+
+- slug: CountDownLatch
+  name: CountDownLatch
